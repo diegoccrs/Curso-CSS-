@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="style.css" />    //esta linea conecta el archivo html al css
+
+/* comentario en CSS */
+
+Inspeccionar -> Calculado -> Muestra el Box de CSS (margin, border, padding, contenido)
+
+SELECTORES
+
+Selector de ID: Selecciona un único elemento basado en su atributo id. 
+Se define con un símbolo de almohadilla, por ejemplo, #titulo seleccionará el elemento con el ID "titulo".
+
+Selector de clase: Selecciona todos los elementos que tienen un atributo class específico. 
+Se define con un punto, por ejemplo, .texto seleccionará todos los elementos con la clase "texto".
+
+Selector Universal: Selecciona todo en el documento, se utiliza *
+
+
+
+
+
+PROPIEDADES 
+
+color:red;      // color
+
+font-size: 24px;     // tamaño de fuente de 24 pixeles
+
+border:  5px    black      solid;                          // asignarle un borde a los elementos de html
+//      grosor  color   estilo del borde                 // los estilos de borde pueden ser:
+                                                         solid, dotted, dashed, double, groove, outset, inset, etc.....
+
+background: color   //modificar fondo
+
+height: 400px;          //altura 
+
+width: 400px;           //ancho
+
+margin: 15px 20px 25px 30px;           //margen
+        top right bottom left 
+
+padding: 30px 25px 20px 15px;         //espacios dentro del espacio 
+
+overflow: visible                    // todo el contenido se puede ver
+          hidden                     // todo el contenido que no alcance a mostrarse dentro del elemento sencillamente lo va a ocultar
+          scroll     
+
+
+text-align: center                  //para mover el texto de posición
+            left 
+            right
+            justify 
+
+text-decoration: underline;       // para hacer subrayado ppor ejemplo
+
+text-shadow: 3px 5px 5px blue;     // para agregarle sombra a los textos
+
+font-family:                      // para cambiarle la fuente al texto (tipo de letra)
+
